@@ -2,6 +2,7 @@
   Operadores de Comparação
     Operadores de comparação são usados ​​para comparar valores.
 
+  Operadores:
   == igualdade (valor) - não recomendado
   === igualdade estrita (valor e tipo)
   != diferente (valor) - não recomendado
