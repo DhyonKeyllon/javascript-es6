@@ -20,7 +20,13 @@ console.log(listaNumeros);
 listaNumeros.reverse();
 console.log(listaNumeros);
 
-// Passa como parâmetro uma função de comparação, onde a e b são os elementos que estão sendo comparados
+/*
+  Passa como parâmetro uma função de comparação, onde a e b são os elementos que estão sendo comparados
+  Se o retorno da subtração for:
+    - Maior que 0, a é ordenado depois de b
+    - Menor que 0, a é ordenado antes de b
+    - Igual a 0, a ordem é mantida
+*/
 listaNumeros.sort((a, b) => a - b);
 console.log(listaNumeros);
 
