@@ -28,6 +28,18 @@
       "bloco de código"
     }
     
+  Funções Factory (Design Pattern)
+  - Funções Factory são funções que retornam objetos.
+  Exemplo:
+    function criarPessoa(nome, sobrenome) {
+      return {
+        nome,
+        sobrenome,
+        nomeCompleto() {
+          return `${this.nome} ${this.sobrenome}`;
+        },
+      };
+    }
 */
 
 const calc = (x1, x2, operator) => {
